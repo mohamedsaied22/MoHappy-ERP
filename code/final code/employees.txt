@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoHappy</title>
+    <!-- icons file -->
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rowdies:wght@300;400&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="page d-flex ">
+    <div class="sidebar bg-white p-20 po-rel">
+        <h3 class="po-rel txt-c mt-0"><span>M</span>Happy<span>O</span></h3>
+        <ul>
+            <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                  <i class="fa-regular fa-chart-bar fa-fw"></i>
+                  <span>Dashboard</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                  <i class="fa-regular fa-user fa-fw"></i>
+                  <span>Profile</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                  <i class="fa-solid fa-diagram-project fa-fw"></i>
+                  <span>Projects</span>
+                </a>
+              </li>
+              <li>
+                <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="Services.html">
+                  <i class="fa-solid fa-laptop-code fa-fw"></i>
+                  <span>Services</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="Customers.html">
+                  <i class="fa-solid fa-users fa-fw"></i>
+                  <span>Customers</span>
+                </a>
+              </li>
+              <li>
+                <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="Employees.html">
+                  <i class="fa-regular fa-handshake fa-fw"></i>
+                  <span>Employees</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                  <i class="fa-regular fa-file fa-fw"></i>
+                  <span>Files</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                  <i class="fa-solid fa-gear fa-fw"></i>
+                  <span>Settings</span>
+                </a>
+              </li>
+              <li>
+                <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                  <i class="fa-regular fa-credit-card fa-fw"></i>
+                  <span>Plans</span>
+                </a>
+              </li>
+        </ul>
+    </div>
+    <div class="content w-full ov-hd">
+      <a href="#head">
+        <i class="arrow fa-solid fa-square-caret-up"></i>
+      </a>
+      <div id="head" class="content w-full ov-hd">
+      <div class="head bg-white p-15 between-flex">
+        <div class="search po-rel">
+          <input class="p-10 bord rad-10" type="search" placeholder="search">
+        </div>
+        <div class="icons d-flex align-center">
+          <span class="notifications po-rel ">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+          <img src="imgs/ava.png" alt="">
+        </div>
+      </div>
+      <!-- end head  -->
+      <h1 data-text="Employees..." class="po-rel">Employees...</h1>
+      <!-- start inputs  -->
+      <div class="inputs d-grid m-20 mb-25 p-10 bg-white rad-10">
+        <div class="mb-15">
+          <label class="fs-13 c-black d-block mb-5 p-10  curs" for="second-in">Employee Code:</label>
+          <input
+            class="input-serach b-none border-ccc p-10 rad-6 d-block w-full btn-shape"
+            type="search"
+            id="second-in"
+            placeholder="Imp.Code"
+          />
+        </div>
+        <div class="mb-15">
+          <label class="fs-13 c-black d-block mb-5 p-10 curs" for="third-in">Employee Name</label>
+          <input
+            class="input-serach b-none border-ccc p-10 rad-6 d-block w-full btn-shape"
+            id="third-in"
+            type="search"
+            placeholder="Imp.Name"
+          />
+        </div>
+        <div class="mb-15">
+          <label class="fs-13 c-black d-block mb-5 p-10  curs" for="first-in">Employee Number:</label>
+          <input
+            class="input-serach b-none border-ccc p-10 rad-6 d-block w-full btn-shape"
+            type="search"
+            id="first-in"
+            placeholder="Imp.Number"
+          />
+        </div>
+        <div class="mb-15">
+          <label class="fs-13 c-black d-block mb-5 p-10 curs" for="fourth-in">Employee Mail</label>
+          <input
+            class="input-serach b-none border-ccc p-10 rad-6 d-block w-full btn-shape"
+            type="email"
+            id="fourth-in"
+            placeholder="mo@gmail.com"
+            
+          />
+        </div>
+        <div class="mb-15">
+          <label class="fs-13 c-black d-block p-10 curs" for="last">Created date</label>
+          <input
+            class="input-serach b-none border-ccc p-10 rad-6 d-block w-full btn-shape"
+            id="last"
+            type="date"
+            placeholder="Last Name"
+          />
+        </div>
+        <div class="">
+          <input  class="sumbit curs btn-shape m-15" type="submit" value="search">
+          <input  class="sumbit curs btn-shape m-15" type="reset">
+        </div>
+      </div>
+      <!-- end inputs  -->
+      <div class="friends-page d-grid m-20 gap-20">
+        <div class="friend bg-white p-20 po-rel rad-10 trans heig-100 hov">
+            <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-slack"></i>
+            </div>
+            <div class="txt-c">
+                <img class="rad-half w-100p hei-100 mt-10 mb-10" src="imgs/ava.png" alt="">
+                <h4 class="m-0">Mohamed Saied</h4>
+                <p class="c-grey fs-13 mt-5 mb-0">CEO</p>
+            </div>
+            <div class="icons po-rel fs-14 ">
+                <div class="mb-10">
+                    <i class="fa-regular fa-face-smile fa-fw"></i>
+                    <span>1000 bounce</span>
+                </div>
+                <div class="mb-10">
+                    <i class="fa-solid fa-code-commit fa-fw"></i>
+                    <span>15 Projects</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                    <span>25 Taskes</span>
+                </div>
+                <span class="vip fw-bold c-grey">VIP</span>
+            </div>
+            <div class="info between-flex fs-13">
+                <span class="c-grey">Joined 01/01/2023</span>
+                <div>
+                  <a class="bg-orange c-white btn-shape" href="profile.html">Profile</a>
+                  <!-- <a class="bg-red c-white btn-shape" href="#">Remove</a> -->
+                </div>
+              </div>
+        </div>
+        <div class="friend bg-white p-20 po-rel rad-10 trans heig-100 hov">
+          <div class="contact">
+          <i class="fa-solid fa-phone"></i>
+          <i class="fa-regular fa-envelope"></i>
+          <i class="fa-brands fa-slack"></i>
+          </div>
+          <div class="txt-c">
+              <img class="rad-half w-100p hei-100 mt-10 mb-10" src="imgs/avatar/avatar11.png" alt="">
+              <h4 class="m-0">Ashrakat Brakat</h4>
+              <p class="c-grey fs-13 mt-5 mb-0">Admin</p>
+          </div>
+          <div class="icons po-rel fs-14 ">
+              <div class="mb-10">
+                  <i class="fa-regular fa-face-smile fa-fw"></i>
+                  <span>800 Bounce</span>
+              </div>
+              <div class="mb-10">
+                  <i class="fa-solid fa-code-commit fa-fw"></i>
+                  <span>12 Projects</span>
+              </div>
+              <div>
+                  <i class="fa-regular fa-newspaper fa-fw"></i>
+                  <span>22 Taskes</span>
+              </div>
+              <!-- <span class="vip fw-bold c-grey">VIP</span> -->
+          </div>
+          <div class="info between-flex fs-13">
+              <span class="c-grey">Joined 15/01/2023</span>
+              <div>
+                <a class="bg-orange c-white btn-shape" href="profile.html">Profile</a>
+                <a class="bg-red c-white btn-shape" href="#">Remove</a>
+              </div>
+            </div>
+      </div>
+        <div class="friend bg-white p-20 po-rel rad-10 trans heig-100 hov">
+            <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-slack"></i>
+            </div>
+            <div class="txt-c">
+                <img class="rad-half w-100p hei-100 mt-10 mb-10" src="imgs/avatar/avatar2.png" alt="">
+                <h4 class="m-0">Ahmed Mohamed</h4>
+                <p class="c-grey fs-13 mt-5 mb-0">JavaScript Developer</p>
+            </div>
+            <div class="icons po-rel fs-14 ">
+                <div class="mb-10">
+                    <i class="fa-regular fa-face-smile fa-fw"></i>
+                    <span>500 bounce</span>
+                </div>
+                <div class="mb-10">
+                    <i class="fa-solid fa-code-commit fa-fw"></i>
+                    <span>15 Projects</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                    <span>15 Taskes</span>
+                </div>
+                <!-- <span class="vip fw-bold c-grey">VIP</span> -->
+            </div>
+            <div class="info between-flex fs-13">
+                <span class="c-grey">Joined 01/02/2023</span>
+                <div>
+                  <a class="bg-orange c-white btn-shape" href="profile.html">Profile</a>
+                  <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                </div>
+              </div>
+        </div>
+        <div class="friend bg-white p-20 po-rel rad-10 trans heig-100 hov">
+            <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-slack"></i>
+            </div>
+            <div class="txt-c">
+                <img class="rad-half w-100p hei-100 mt-10 mb-10" src="imgs/avatar/avatar3.png" alt="">
+                <h4 class="m-0">Amr Khaled</h4>
+                <p class="c-grey fs-13 mt-5 mb-0">MERN Stack Developer</p>
+            </div>
+            <div class="icons po-rel fs-14 ">
+                <div class="mb-10">
+                    <i class="fa-regular fa-face-smile fa-fw"></i>
+                    <span>800 bounce</span>
+                </div>
+                <div class="mb-10">
+                    <i class="fa-solid fa-code-commit fa-fw"></i>
+                    <span>10 Projects</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                    <span>25 Taskes</span>
+                </div>
+                <!-- <span class="vip fw-bold c-grey">VIP</span> -->
+            </div>
+            <div class="info between-flex fs-13">
+                <span class="c-grey">Joined 15/01/2023</span>
+                <div>
+                  <a class="bg-orange c-white btn-shape" href="profile.html">Profile</a>
+                  <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                </div>
+              </div>
+        </div>
+        <div class="friend bg-white p-20 po-rel rad-10 trans heig-100 hov">
+            <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-slack"></i>
+            </div>
+            <div class="txt-c">
+                <img class="rad-half w-100p hei-100 mt-10 mb-10" src="imgs/avatar/avatar1.png" alt="">
+                <h4 class="m-0">Ahmed Saied</h4>
+                <p class="c-grey fs-13 mt-5 mb-0">DevOps Developer</p>
+            </div>
+            <div class="icons po-rel fs-14 ">
+                <div class="mb-10">
+                    <i class="fa-regular fa-face-smile fa-fw"></i>
+                    <span>999 bounce</span>
+                </div>
+                <div class="mb-10">
+                    <i class="fa-solid fa-code-commit fa-fw"></i>
+                    <span>15 Projects</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                    <span>25 Taskes</span>
+                </div>
+                <span class="vip fw-bold c-grey">VIP</span>
+            </div>
+            <div class="info between-flex fs-13">
+                <span class="c-grey">Joined 01/01/2023</span>
+                <div>
+                  <a class="bg-orange c-white btn-shape" href="profile.html">Profile</a>
+                  <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                </div>
+              </div>
+        </div>
+        <div class="friend bg-white p-20 po-rel rad-10 trans heig-100 hov">
+            <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-slack"></i>
+            </div>
+            <div class="txt-c">
+                <img class="rad-half w-100p hei-100 mt-10 mb-10" src="imgs/avatar/avatar4.png" alt="">
+                <h4 class="m-0">Passant Aboelenieen</h4>
+                <p class="c-grey fs-13 mt-5 mb-0">Legal Advisor/HR</p>
+            </div>
+            <div class="icons po-rel fs-14 ">
+                <div class="mb-10">
+                    <i class="fa-regular fa-face-smile fa-fw"></i>
+                    <span>300 Bounce</span>
+                </div>
+                <div class="mb-10">
+                    <i class="fa-solid fa-code-commit fa-fw"></i>
+                    <span>15 Projects</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                    <span>20 Taskes</span>
+                </div>
+                <!-- <span class="vip fw-bold c-grey">VIP</span> -->
+            </div>
+            <div class="info between-flex fs-13">
+                <span class="c-grey">Joined 01/01/2023</span>
+                <div>
+                  <a class="bg-orange c-white btn-shape" href="profile.html">Profile</a>
+                  <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                </div>
+              </div>
+        </div>
+        <div class="friend bg-white p-20 po-rel rad-10 trans heig-100 hov">
+            <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-slack"></i>
+            </div>
+            <div class="txt-c">
+                <img class="rad-half w-100p hei-100 mt-10 mb-10" src="imgs/avatar/avatar3.png" alt="">
+                <h4 class="m-0">Farouk Omar</h4>
+                <p class="c-grey fs-13 mt-5 mb-0">Back-end Developer</p>
+            </div>
+            <div class="icons po-rel fs-14 ">
+                <div class="mb-10">
+                    <i class="fa-regular fa-face-smile fa-fw"></i>
+                    <span>700 Bounce</span>
+                </div>
+                <div class="mb-10">
+                    <i class="fa-solid fa-code-commit fa-fw"></i>
+                    <span>15 Projects</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                    <span>12 Taskes</span>
+                </div>
+                <!-- <span class="vip fw-bold c-grey">VIP</span> -->
+            </div>
+            <div class="info between-flex fs-13">
+                <span class="c-grey">Joined 21/01/2023</span>
+                <div>
+                  <a class="bg-orange c-white btn-shape" href="profile.html">Profile</a>
+                  <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                </div>
+              </div>
+        </div>
+        <div class="friend bg-white p-20 po-rel rad-10 trans heig-100 hov">
+            <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-slack"></i>
+            </div>
+            <div class="txt-c">
+                <img class="rad-half w-100p hei-100 mt-10 mb-10" src="imgs/avatar/avatar2.png" alt="">
+                <h4 class="m-0">Alaa Ali</h4>
+                <p class="c-grey fs-13 mt-5 mb-0">DevOps Developer</p>
+            </div>
+            <div class="icons po-rel fs-14 ">
+                <div class="mb-10">
+                    <i class="fa-regular fa-face-smile fa-fw"></i>
+                    <span>850 Bounce</span>
+                </div>
+                <div class="mb-10">
+                    <i class="fa-solid fa-code-commit fa-fw"></i>
+                    <span>15 Projects</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                    <span>25 Taskes</span>
+                </div>
+                <!-- <span class="vip fw-bold c-grey">VIP</span> -->
+            </div>
+            <div class="info between-flex fs-13">
+                <span class="c-grey">Joined 02/10/2021</span>
+                <div>
+                  <a class="bg-orange c-white btn-shape" href="profile.html">Profile</a>
+                  <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                </div>
+              </div>
+        </div>
+        <div class="friend bg-white p-20 po-rel rad-10 trans heig-100 hov">
+            <div class="contact">
+            <i class="fa-solid fa-phone"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-slack"></i>
+            </div>
+            <div class="txt-c">
+                <img class="rad-half w-100p hei-100 mt-10 mb-10" src="imgs/avatar/avatar1.png" alt="">
+                <h4 class="m-0">Eslam Mohsen</h4>
+                <p class="c-grey fs-13 mt-5 mb-0">DevOps Developer</p>
+            </div>
+            <div class="icons po-rel fs-14 ">
+                <div class="mb-10">
+                    <i class="fa-regular fa-face-smile fa-fw"></i>
+                    <span>650 Bounce</span>
+                </div>
+                <div class="mb-10">
+                    <i class="fa-solid fa-code-commit fa-fw"></i>
+                    <span>15 Projects</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-newspaper fa-fw"></i>
+                    <span>20 Taskes</span>
+                </div>
+                <!-- <span class="vip fw-bold c-grey">VIP</span> -->
+            </div>
+            <div class="info between-flex fs-13">
+                <span class="c-grey">Joined 02/10/2021</span>
+                <div>
+                  <a class="bg-orange c-white btn-shape" href="profile.html">Profile</a>
+                  <a class="bg-red c-white btn-shape" href="#">Remove</a>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+   </div>
+</body>
+</html>

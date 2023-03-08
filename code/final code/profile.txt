@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoHappy</title>
+    <!-- icons file -->
+    <link rel="stylesheet" href="css/normalized.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rowdies:wght@300;400&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="page d-flex ">
+    <div class="sidebar bg-white p-20 po-rel">
+        <h3 class="po-rel txt-c mt-0"><span>M</span>Happy<span>O</span></h3>
+        <ul>
+          <li>
+              <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                <i class="fa-regular fa-chart-bar fa-fw"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                <i class="fa-regular fa-user fa-fw"></i>
+                <span>Profile</span>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                <i class="fa-solid fa-diagram-project fa-fw"></i>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li>
+              <a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="Services.html">
+                <i class="fa-solid fa-laptop-code fa-fw"></i>
+                <span>Services</span>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="Customers.html">
+                <i class="fa-solid fa-users fa-fw"></i>
+                <span>Customers</span>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="Employees.html">
+                <i class="fa-regular fa-handshake fa-fw"></i>
+                <span>Employees</span>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                <i class="fa-regular fa-file fa-fw"></i>
+                <span>Files</span>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                <i class="fa-solid fa-gear fa-fw"></i>
+                <span>Settings</span>
+              </a>
+            </li>
+            <li>
+              <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                <i class="fa-regular fa-credit-card fa-fw"></i>
+                <span>Plans</span>
+              </a>
+            </li>
+      </ul>
+    </div>
+    <div class="content w-full ov-hd">
+      <a href="#head">
+        <i class="arrow fa-solid fa-square-caret-up"></i>
+      </a>
+      <div id="head" class="head bg-white p-15 between-flex">
+        <div class="search po-rel">
+          <input class="p-10 bord rad-10" type="search" placeholder="search">
+        </div>
+        <div class="icons d-flex align-center">
+          <span class="notifications po-rel ">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+          <img src="imgs/ava.png" alt="">
+        </div>
+      </div>
+      <!-- end head  -->
+      <h1 data-text="Profile..." class="po-rel">Profile...</h1>
+      <div class="profile-page m-20">
+        <!-- start over view  -->
+        <div class="over-view bg-white rad-10 d-flex align-center trans heig-100 hov">
+            <div class="avatar-box p-20 txt-c">
+              <img class="img-mohappy" src="imgs/mo.png" alt="company logo">
+              <h3>Mo Happy</h3>
+                <p class="c-grey fs-13 mt-10">ERP System</p>
+                <div class="level bg-eee rad-10 po-rel">
+                    <span style="width: 100%"></span>
+                </div>
+                <div class="rating mt-10 mb-10">
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13"></i>
+                <i class="fa-solid fa-star c-orange fs-13 "></i>
+                </div>
+                <p class="c-grey m-0 fs-13">250 Rating</p>
+            </div>
+            <div class="info-box">
+                <!-- start information row  -->
+                <div class="box p-20 d-flex align-center trans heig-100 hov">
+                    <h4 class="c-grey fs-15 m-0 w-full ">General Information</h4>
+                    <div class="fs-14">
+                        <span class="c-grey">Full Name:</span>
+                        <span>Mo Happy, Inc</span>
+                    </div>
+                    <div class="fs-14">
+                        <span class="c-grey">Specialization:</span>
+                        <span>Software House</span>
+                      </div>
+                      <div class="fs-14">
+                        <span class="c-grey">Country:</span>
+                        <span>Egypt</span>
+                      </div>
+                      <div class="fs-14">
+                        <label>
+                          <input class="toggle-checkbox-info" type="checkbox" checked/>
+                          <div class="toggle-switch-info"></div>
+                        </label>
+                      </div>
+                </div>
+                <!-- end information row  -->
+                <!-- Start Information Row -->
+              <div class="box p-20 d-flex align-center trans heig-100 hov">
+                <h4 class="c-grey w-full fs-15 m-0">Personal Information</h4>
+                <div class="fs-14">
+                  <span class="c-grey">Email:</span>
+                  <span>mohappy@gmail.com</span>
+                </div>
+                <div class="fs-14">
+                  <span class="c-grey">Phone:</span>
+                  <span>01113959979</span>
+                </div>
+                <div class="fs-14">
+                  <span class="c-grey">established:</span>
+                  <span>01/02/2023</span>
+                </div>
+                <div class="fs-14">
+                  <label>
+                    <input class="toggle-checkbox-info" type="checkbox" checked/>
+                    <div class="toggle-switch-info"></div>
+                  </label>
+                </div>
+              </div>
+              <!-- End Information Row -->
+              <!-- Start Information Row -->
+              <div class="box p-20 d-flex align-center trans heig-100 hov">
+                <h4 class="c-grey w-full fs-15 m-0">Job Information</h4>
+                <div class="fs-14">
+                  <span class="c-grey">Title:</span>
+                  <span>Cloud Solutions</span>
+                </div>
+                <div class="fs-14">
+                  <span class="c-grey">Services:</span>
+                  <span>PAAS & IAAS & SAAS</span>
+                </div>
+                <div class="fs-14">
+                  <span class="c-grey">Years Of Experience:</span>
+                  <span>3+</span>
+                </div>
+                <div class="fs-14">
+                  <label>
+                    <input class="toggle-checkbox-info" type="checkbox" checked />
+                    <div class="toggle-switch-info"></div>
+                  </label>
+                </div>
+              </div>
+              <!-- End Information Row -->
+              <!-- Start Information Row -->
+              <div class="box p-20 d-flex align-center trans heig-100 hov">
+                <h4 class="c-grey w-full fs-15 m-0">Billing Information</h4>
+                <div class="fs-14">
+                  <span class="c-grey">Payment Method:</span>
+                  <span>Paypal</span>
+                </div>
+                <div class="fs-14">
+                  <span class="c-grey">Email:</span>
+                  <span>email@website.com</span>
+                </div>
+                <div class="fs-14">
+                  <span class="c-grey">Subscription:</span>
+                  <span>Monthly</span>
+                </div>
+                <div class="fs-14">
+                  <label>
+                    <input class="toggle-checkbox-info" type="checkbox" />
+                    <div class="toggle-switch-info"></div>
+                  </label>
+                </div>
+              </div>
+              
+              <!-- End Information Row -->
+            </div>
+            <div class="box-op p-20 d-flex align-center trans heig-100 ">
+              <a class="save button mt-35 bg-green fs-15 c-white btn-shape trans-5" href="#">save</a>
+            <a class="save button mt-35 bg-orange mle-10 fs-15 c-white btn-shape trans-5" href="#">Discard</a>
+            </div>
+        </div>
+        <!-- end over view  -->
+        <!-- start other data  -->
+        <div class="other-data d-flex gap-20">
+          <div class="skills-card p-20 bg-white rad-10 mt-20 trans heig-100 hov">
+            <h2 class="mt-0 mb-10">Our Skills</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Complete Skills List</p>
+            <ul class="m-0 txt-c-mobile mt-5mob">
+              <li><span>Front-End</span><span>HTML</span><span>CSS</span><span>SASS</span></li>
+              <li><span>tailwind</span><span>Bootstap</span><span>Stylus</span></li>
+              <li><span>JavaScript</span><span>TypeScript</span><span>Vuejs</span><span>Reactjs</span></li>
+              <li><span>Back-End</span><span>NodeJS</span><span>MongoDB</span><span>Laravel</span></li>
+              <li><span>API</span><span>REST</span><span>Json</span></li>
+              <li><span>SAAS</span><span>Integration Platform</span><span>Analytics Platform</span></li>
+              <li><span>PAAS</span><span>Cloud Adoption</span><span>Cloud Computing</span></li>
+              <li><span>IAAS</span><span>Private Cloud</span><span>Public Cloud</span><span>Hybrid</span></li>
+            </ul>
+          </div>
+          <div class="activities p-20 bg-white rad-10 mt-20 trans heig-100 hov
+          trans heig-100 hov">
+            <h2 class="mt-0 mb-10">Latest Activities</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Latest Activities Done By Employees</p>
+            <div class="activity d-flex align-center txt-c-moblie">
+              <img src="imgs/store.png" alt="" />
+              <div class="info">
+                <span class="d-block mb-10">Store</span>
+                <span class="c-grey">Bought The Mastering MERN Stack Course</span>
+              </div>
+              <div class="date">
+                <span class="d-block mb-10">18:10</span>
+                <span class="c-grey">Yesterday</span>
+              </div>
+            </div>
+            <div class="activity d-flex align-center txt-c-moblie">
+              <img src="imgs/academy.png" alt="" />
+              <div class="info">
+                <span class="d-block mb-10">Academy</span>
+                <span class="c-grey">Got The Azure Certificate</span>
+              </div>
+              <div class="date">
+                <span class="d-block mb-10">16:05</span>
+                <span class="c-grey">Yesterday</span>
+              </div>
+            </div>
+            <div class="activity d-flex align-center txt-c-moblie">
+              <img src="imgs/badg1.png" alt="" />
+              <div class="info">
+                <span class="d-block mb-10">Badges</span>
+                <span class="c-grey">Unlocked The 10 Skills Badge</span>
+              </div>
+              <div class="date">
+                <span class="d-block mb-10">18:05</span>
+                <span class="c-grey">Yesterday</span>
+              </div>
+            </div>
+            <div class="activity d-flex align-center txt-c-moblie">
+              <img src="imgs/store.png" alt="" />
+              <div class="info">
+                <span class="d-block mb-10">Store</span>
+                <span class="c-grey">Bought The Typescript Course</span>
+              </div>
+              <div class="date">
+                <span class="d-block mb-10">12:05</span>
+                <span class="c-grey">Yesterday</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end other data  -->
+      </div>
+    </div>
+   </div>
+</body>
+</html>
