@@ -312,7 +312,7 @@
 /* end heigh  */
 /* start transistion */
 .trans {
-transition: 1s;
+transition: .3s;
 }
 .trans-5 {
     transition: .5s;
